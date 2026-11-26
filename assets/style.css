@@ -49,3 +49,14 @@ h3{font-size:19px;font-weight:700;margin:28px 0 8px}
 .disclose{font-size:13px;color:var(--muted);background:#fff;border:1px dashed var(--line);border-radius:12px;padding:12px 14px;margin:18px 0}
 footer{margin-top:60px;border-top:1px solid var(--line);padding:28px 0 50px;color:var(--muted);font-size:13px}
 .back{display:inline-block;margin:24px 0 0;font-size:14px;font-weight:700;color:var(--orange)}
+
+.card.locked{cursor:default}
+.card.live{outline:3px solid var(--orange);outline-offset:-3px}
+.card .go{position:absolute;left:0;right:0;bottom:0;padding:10px;background:var(--orange);color:#fff;font-weight:900;font-size:14px;text-align:center}
+.card.live:hover{transform:translateY(-3px);transition:.2s}
+.feature{display:flex;gap:16px;align-items:center;margin-top:26px;background:#fff;border:2px solid var(--orange);border-radius:18px;padding:14px;box-shadow:0 6px 20px rgba(239,114,41,.15)}
+.feature img{width:96px;height:150px;object-fit:cover;border-radius:12px;flex:0 0 auto}
+.feature b{display:block;font-size:20px;font-weight:900;margin:4px 0}
+.feature p{color:var(--muted);font-size:14px}
+.feature .new{background:var(--orange);color:#fff;font-size:11px;font-weight:900;padding:2px 8px;border-radius:999px}
+.feature .cta{display:inline-block;margin-top:8px;color:var(--orange);font-weight:900;font-size:15px}
